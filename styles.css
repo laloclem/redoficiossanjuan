@@ -83,22 +83,13 @@ button:focus-visible {
 
 .brand {
   display: flex;
-  flex-direction: column;
-  font-family: var(--font-display);
-  line-height: 1.1;
+  align-items: center;
 }
 
-.brand-title {
-  color: #FFFFFF;
-  font-weight: 800;
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
-}
-
-.brand-sub {
-  color: var(--naranja);
-  font-size: 1.05rem;
-  font-weight: 600;
+.brand-logo {
+  height: 42px;
+  width: auto;
+  display: block;
 }
 
 /* Botones */
